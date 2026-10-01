@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Restaurant Website Theme</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #875A7B; padding-bottom: 10px; }
+        h2 { color: #875A7B; margin-top: 30px; }
+        .feature { background: #f9f9f9; padding: 15px; margin: 10px 0; border-left: 4px solid #875A7B; border-radius: 4px; }
+        .note { background: #fff3cd; padding: 15px; border-radius: 4px; border-left: 4px solid #ffc107; margin: 20px 0; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: monospace; }
+        ul { line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ Restaurant Website Theme</h1>
+        <p><strong>Version:</strong> 17.0.1.0.0 | <strong>Category:</strong> Website/Theme</p>
+
+        <div class="note">
+            <strong>⚠️ Important Note About Images:</strong><br/>
+            This module includes all the original image references from your website. 
+            <strong>Images are loaded dynamically</strong> - if an image with the matching name exists 
+            in your Odoo database, it will be displayed. If not, that section will still work but 
+            without the image. No image names have been changed from your original code.
+        </div>
+
+        <h2>📦 Included Snippets</h2>
+        <div class="feature">
+            <strong>1. Hero Carousel</strong><br/>
+            Full-screen carousel with fade transitions, featuring food imagery backgrounds
+        </div>
+        <div class="feature">
+            <strong>2. Delicious Food Header</strong><br/>
+            Main hero section with "Delicious Food" heading and Order Now button
+        </div>
+        <div class="feature">
+            <strong>3. Clever Slogan Carousel</strong><br/>
+            Secondary carousel with storytelling text and CTA button
+        </div>
+        <div class="feature">
+            <strong>4. Our Special Section</strong><br/>
+            Four category cards: Breakfast, Main Dishes, Dessert, and Special
+        </div>
+        <div class="feature">
+            <strong>5. Fresh & Hot Section</strong><br/>
+            Image-text layout with "Fresh and hot to your table now" messaging
+        </div>
+        <div class="feature">
+            <strong>6. Our Chefs Section</strong><br/>
+            Chef showcase with star rating and description
+        </div>
+        <div class="feature">
+            <strong>7. Product Slider</strong><br/>
+            Dynamic product snippet for showcasing menu items
+        </div>
+        <div class="feature">
+            <strong>8. Experience Parallax</strong><br/>
+            Parallax scrolling section with "EXPERIENCE OF REAL RECIPES TASTE"
+        </div>
+        <div class="feature">
+            <strong>9. Final Parallax Section</strong><br/>
+            Fixed background parallax section for visual impact
+        </div>
+
+        <h2>🖼️ Image Handling</h2>
+        <p>The module preserves all original image paths. When you install it:</p>
+        <ul>
+            <li>If images exist in your database with matching names → they display automatically</li>
+            <li>If images don't exist → sections render without images (no broken links)</li>
+            <li>All original image filenames and paths are preserved exactly as provided</li>
+        </ul>
+
+        <h2>🔧 Dependencies</h2>
+        <ul>
+            <li><code>website</code> - Core website builder</li>
+            <li><code>website_sale</code> - E-commerce product features</li>
+        </ul>
+
+        <h2>📁 Module Structure</h2>
+        <pre>
+Resturant/
+├── __init__.py
+├── __manifest__.py
+├── data/
+│   └── website_homepage.xml    # Main snippet definitions
+├── models/
+│   ├── __init__.py
+│   └── website.py              # Image existence checking logic
+└── static/
+    └── description/
+        └── index.html          # This file
+        </pre>
+
+        <h2>🚀 Installation</h2>
+        <ol>
+            <li>Copy the <code>Resturant</code> folder to your Odoo <code>addons/</code> directory</li>
+            <li>Update app list in Odoo (Settings → Activate Developer Mode → Update Apps List)</li>
+            <li>Search for "Restaurant Website Theme" and install</li>
+            <li>The snippets will be available in your website builder</li>
+        </ol>
+    </div>
+</body>
+</html>

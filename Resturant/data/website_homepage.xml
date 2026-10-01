@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Restaurant Website Homepage Snippets -->
+        <template id="website_homepage_restaurant" name="Restaurant Homepage">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <div id="wrap" class="oe_structure oe_empty">
+                    <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                        <div class="s_carousel s_carousel_default carousel carousel-fade slide oe_img_bg o_bg_img_center pointer-event" data-bs-interval="5000" id="myCarousel1727333210583" style="background-image: url(&quot;/web/image/1484-a49beee4/a005276e05cb754114c21b92bce6471e.webp&quot;);" data-mimetype="image/webp" data-original-id="1483" data-original-src="/web/image/1483-18054289/a005276e05cb754114c21b92bce6471e.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1920">
+
+
+                            <div class="carousel-inner">
+
+
+
+                                <div class="carousel-item pt96 pb96 o_colored_level parallax active" style="background-image: none;" data-name="Slide" data-scroll-background-ratio="1.5"><span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/1076-94a29ad6/f%2054.webp&quot;);" data-mimetype="image/webp" data-original-id="990" data-original-src="/web/image/990-164710b0/f%2054.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1920"/>
+                                    <div class="o_we_bg_filter bg-black-25"/>
+                                    <div class="oe_unremovable container">
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item o_colored_level pb0 pt0 oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/982-4ca159cc/f%2076.webp&quot;);" data-name="Slide" data-mimetype="image/webp" data-original-id="977" data-original-src="/web/image/977-425e06bf/f%2076.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1920">
+                                    <div class="oe_unremovable container">
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                    <section id="main_section-custom" class="s_text_image o_colored_level bg-black pb48 pt0 o_full_screen_height" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none; position: relative;">
+                        <div class="custom-container container-fluid">
+                            <div class="row o_grid_mode mobile-wrap header_image_section" data-row-count="15">
+
+
+                                <div class="o_colored_level o_grid_item o_grid_item_image custom-main-section-left g-height-13 g-col-lg-7 col-lg-7" style="z-index: 1; grid-area: 3 / 6 / 16 / 13;"><img src="/web/image/3477-e34100cb/header_img.webp" alt="" class="img img-fluid mx-auto o_we_custom_image o_animate o_anim_slide_in o_anim_from_right o_visible" data-mimetype="image/webp" data-original-id="1654" data-original-src="/web/image/1654-72d2be68/header_img.png" data-mimetype-before-conversion="image/png" data-resize-width="690" loading="eager" style="--wanim-intensity: 27;" data-quality="100"/></div>
+                                <div class="o_colored_level o_animate o_visible o_anim_zoom_out o_anim_from_bottom delicious-wd-content o_grid_item delicious-food-section g-col-lg-11 g-height-10 col-lg-11" style="z-index: 2; grid-area: 4 / 1 / 14 / 12;">
+                                    <h2 role="heading" level="1"><strong><span class="para_large" style="font-size: 4.375rem; font-family:OpenSansHebrew-Bold; line-height: 1;">Delicious
+                                                Food</span></strong></h2>
+                                    <p>
+
+                                    </p>
+                                    <h4 role="heading" level="2"><span style="font-size: 2.8125rem;   font-weight:300;"/><span class="para_small" style="font-size: 3.3125rem;font-family:OpenSansHebrew-Light;font-weight: 100;letter-spacing: -1.5px;line-height: 1;">This
+                                            is the right way to start the journey of life</span></h4>
+                                    <p><br/></p>
+                                    <p>
+
+                                    </p>
+                                    <p><a href="/shop" class="animate_down mt-1 order-btn-1 btn btn-secondary" data-bs-original-title="" title="">Order Now&amp;nbsp;&amp;nbsp;&amp;nbsp; <span class="fa fa-chevron-right"/>&amp;nbsp;</a><br/></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wave_main-section">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+                                <path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3  c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3  c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/>
+                            </svg>
+                        </div>
+                    </section>
+
+
+                    <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                        <div class="s_carousel carousel s_carousel_default pointer-event" data-bs-interval="10000" id="myCarousel1728304512417" style="background-color: rgba(255, 255, 255, 0.25); background-image: none;">
+
+                            <ol class="carousel-indicators o_we_no_overlay d-none">
+
+                                <li data-bs-target="#myCarousel1728304512417" class="active" data-bs-slide-to="0" aria-current="true"/>
+
+                            </ol>
+
+                            <div class="carousel-inner">
+
+
+
+                                <div class="carousel-item pt96 pb96 o_colored_level active oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/website.s_carousel_default_image_2&quot;);" data-name="Slide">
+                                    <div class="container oe_unremovable">
+                                        <div class="row">
+                                            <div class="carousel-content col-lg-8 offset-lg-2 bg-black-50 text-center pt48 pb40 o_colored_level">
+                                                <h2 class="display-3-fs o_default_snippet_text" role="heading" level="1">Clever Slogan</h2>
+                                                <div class="s_hr pt8 pb24" data-snippet="s_hr" data-name="Separator">
+                                                    <hr class="w-25 mx-auto" style="border-top-width: 1px; border-top-style: solid;"/>
+                                                </div>
+                                                <p class="lead o_default_snippet_text">Storytelling is powerful.<br/> It draws
+                                                    readers in and engages them.</p>
+                                                <p><a href="/" class="btn btn-primary o_default_snippet_text">Start your
+                                                        journey</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <a class="carousel-control-prev o_not_editable o_we_no_overlay d-none" role="img" title="Previous" href="#myCarousel1728304512417" aria-label="Previous" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"/>
+                                <span class="visually-hidden o_default_snippet_text">Previous</span>
+                            </a>
+                            <a class="carousel-control-next o_not_editable o_we_no_overlay d-none" role="img" title="Next" href="#myCarousel1728304512417" aria-label="Next" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"/>
+                                <span class="visually-hidden o_default_snippet_text">Next</span>
+                            </a>
+                        </div>
+                    </section>
+                    <section class="s_title pt40 o_colored_level pb4" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgb(255, 255, 255); background-image: none;">
+                        <div class="s_allow_columns container">
+
+                            <div class="row">
+                                <div class="col-lg-12 o_colored_level o_animate o_anim_zoom_out o_visible bg-white" style="">
+                                    <h2 style="text-align: center; font-family:Open Sans Hebrew, Sans-serif;" role="heading" level="1"><span class="para_large" style="color: black;font-size: 4.375rem;font-weight: 200;">Our</span><span style="font-weight: 500; color: black; font-size: 4.375rem;">&amp;nbsp;</span><strong><span class="para_large" style="color: black; font-weight:800; font-size: 4.375rem; font-family:OpenSansHebrew-Bold; background-color:#fff;">special</span></strong><span class="para_small" style=" font-size: 1.75rem; font-family:OpenSansHebrew-Light;">&amp;nbsp;</span><span style="font-weight:300;" class="h4-fs">
+                                            <font class="text-black">​</font>
+                                        </span><br/></h2><p style="text-align: center;"><br/></p>
+                                    <p>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="three-product-section" class="s_three_columns o_colored_level bg-white-85 pb0 pt24 pl8 pr8" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+                        <div style="font-family:Open Sans Hebrew, Sans-serif;" class="our-special-products container-fluid">
+                            <div class="row d-flex align-items-center">
+                                <div class="s_col_no_bgcolor col-lg-3 o_animate o_anim_flip_in_x o_visible pb0 pt0 product-custom-padding" style="">
+                                    <div class="card custom_card_box text-bg-white h-100 rounded" style="border-radius: 0px !important;">
+                                        <a href="/shop/category/israeli-breakfast-1"><img src="/web/image/1859-8dcc453b/f-163.svg" alt="" class="card-img-top img img-fluid o_we_custom_image o_animate_on_hover" data-mimetype="image/svg+xml" data-original-id="1673" data-original-src="/web/image/1673-e17e93a1/f-163.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="690" data-shape="web_editor/geometric/geo_square" data-file-name="f-163.svg" data-hover-effect="image_zoom_in" data-shape-colors=";;;;" data-original-mimetype="image/webp" loading="eager" data-hover-effect-color="rgba(0, 0, 0, 0)" data-hover-effect-intensity="20"/></a>
+                                        <div class="card-body custom_overlay_card_text">
+                                            <h3 style="font-family: OpenSansHebrew-Light; font-weight: 200; text-align: center;" class="card-title" role="heading" level="2"><span style="font-size: 2.3125rem;"><a class="custom_overlay_card_text" href="/shop/category/israeli-breakfast-1">Breakfast</a></span></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s_col_no_bgcolor col-lg-3 o_animate o_anim_flip_in_x o_visible pb0 pt0 product-custom-padding" style="">
+                                    <div class="card custom_card_box text-bg-white h-100 rounded" style="border-radius: 0px !important;">
+                                        <a href="/shop/category/main-dishes-and-sides-side-dishes-for-main-courses-5" data-bs-original-title="" title=""><img src="/web/image/5591-b0f2d74c/lamb%2520chops_homepage.svg" alt="" class="card-img-top img img-fluid o_we_custom_image o_animate_on_hover" data-shape="web_editor/geometric/geo_square" data-shape-colors=";;;;" data-hover-effect="image_zoom_in" data-hover-effect-color="rgba(0, 0, 0, 0)" data-hover-effect-intensity="20" data-mimetype="image/svg+xml" data-original-id="5587" data-original-src="/web/image/5587-a957cfb1/lamb%20chops_homepage.jpg" data-mimetype-before-conversion="image/jpeg" data-original-mimetype="image/webp" data-resize-width="962" data-file-name="lamb%20chops_homepage.svg" loading="eager"/></a>
+                                        <div class="card-body custom_overlay_card_text">
+                                            <h3 style="font-family: OpenSansHebrew-Light; font-weight: 200; text-align: center;" class="card-title" role="heading" level="2"><span style="font-size: 2.3125rem;"><a class="custom_overlay_card_text" href="/shop/category/main-dishes-and-sides-16" data-bs-original-title="" title="" aria-describedby="popover123507">Main Dishes</a></span><br/></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s_col_no_bgcolor col-lg-3 o_animate o_anim_flip_in_x o_visible pb0 pt0 product-custom-padding" style="">
+                                    <div class="card custom_card_box text-bg-white h-100 rounded" style="border-radius: 0px !important;">
+                                        <a href="/shop/category/desserts-personal-selection-18"><img src="/web/image/1858-2e96705f/f-54.svg" alt="" class="card-img-top img img-fluid o_we_custom_image o_animate_on_hover" data-mimetype="image/svg+xml" data-original-id="1675" data-original-src="/web/image/1675-7d5a5904/f-54.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="690" data-shape="web_editor/geometric/geo_square" data-file-name="f-54.svg" data-hover-effect="image_zoom_in" data-shape-colors=";;;;" data-original-mimetype="image/webp" loading="eager" data-hover-effect-color="rgba(0, 0, 0, 0)" data-hover-effect-intensity="20"/></a>
+                                        <div class="card-body custom_overlay_card_text">
+                                            <h3 style="font-family:OpenSansHebrew-Light; font-weight:200;" class="card-title" role="heading" level="2">
+                                                <span style="font-size: 2.3125rem;"><a class="custom_overlay_card_text" href="/shop/category/desserts-personal-selection-18">Dessert</a></span><br/></h3></div></div></div><div class="s_col_no_bgcolor col-lg-3 o_animate o_anim_flip_in_x o_visible pb0 pt0 product-custom-padding" style=""><div class="card custom_card_box text-bg-white h-100 rounded" style="border-radius: 0px !important;"><a href="/shop/category/chef-special-6"><img src="/web/image/1860-e3ec97b3/f-250.svg" alt="" class="card-img-top img img-fluid o_we_custom_image o_animate_on_hover" data-mimetype="image/svg+xml" data-original-id="1676" data-original-src="/web/image/1676-8f6ae771/f-250.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="690" data-shape="web_editor/geometric/geo_square" data-file-name="f-250.svg" data-hover-effect="image_zoom_in" data-shape-colors=";;;;" data-original-mimetype="image/webp" loading="eager" data-hover-effect-color="rgba(0, 0, 0, 0)" data-hover-effect-intensity="20"/></a>
+                                        <div class="card-body custom_overlay_card_text">
+                                            <h3 role="heading" level="2"><span style="font-size: 2.3125rem;"><a class="custom_overlay_card_text" href="/shop/category/chef-special-6">Special</a></span></h3></div></div></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="s_text_image o_colored_level pb48 bg-white pt128" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                        <div class="container-fluid">
+                            <div class="row o_grid_mode" data-row-count="11">
+
+
+                                <div class="o_colored_level custom_bg-overlay bg-white o_grid_item o_grid_item_image g-col-lg-6 g-height-11 col-lg-6" style="grid-area: 1 / 1 / 12 / 7; z-index: 1;"><img src="/web/image/1746-26dccc8b/H1122.webp" alt="" class="float-img img img-fluid mx-auto o_we_custom_image img-wdth margin-lft" data-mimetype="image/webp" data-original-id="1683" data-original-src="/web/image/1683-1afade84/H1122.png" data-mimetype-before-conversion="image/png" data-resize-width="962" loading="lazy"/></div>
+
+                            <div class="o_colored_level pd-rgt180 wdth-custom o_grid_item g-col-lg-6 g-height-8 col-lg-6" style="z-index: 2; grid-area: 1 / 7 / 9 / 13;">
+                                    <h2 role="heading" level="1"><strong><span class="para_large" style="font-family:OpenSansHebrew-Bold; font-size: 4.375rem; line-height: 1;"><font class="text-black">Delicious
+                                                Food</font></span></strong></h2>
+                                    <p>
+
+                                    </p>
+                                    <h2 role="heading" level="1"><span style="font-family: OpenSansHebrew-Light; font-size: 53px; line-height: 1;" class="h1-fs para_small text-black">Fresh and hot
+                                            to your table now</span></h2>
+                                    <p>
+
+                                    </p>
+                                    <p class="responsive-dflex"><a href="/shop" class="order_now-btn btn btn-secondary mb-2" data-bs-original-title="" title=""><span style="font-family:OpenSansHebrew-Bold; background-color:tranparent;" class="order-btn-span"> Order <span style="margin-right:10px; font-family:OpenSansHebrew-Bold;"> Now</span>
+                                            </span> <span class="fa fa-chevron-right"/></a> <a href="/contactus" class="order_now-btn contact_us-btn btn btn-secondary mb-2" data-bs-original-title="" title="">
+                                            <span style="font-family:OpenSansHebrew-Bold; background-color:tranparent;" class="order-btn-span">Contact <span style="margin-right:10px; font-family:OpenSansHebrew-Bold;"> us</span>
+                                            </span><span class="fa fa-chevron-right"/></a>
+                                    </p>
+                                </div></div>
+                        </div>
+                    </section>
+                    <section class="s_text_image o_colored_level pb0 bg-white pt56" data-snippet="s_text_image" data-name="Text - Image" style="margin-bottom: -10px; position: relative; background-image: none;">
+                        <div class="container">
+                            <div class="row align-items-center">
+
+
+                                <div class="o_colored_level col-lg-6 pt4 o_animate o_anim_fade_in o_anim_from_bottom o_visible bg-white our_chef-section" style="">
+                                    <h2 style="font-family:Open Sans Hebrew, Sans-serif;" role="heading" level="1"><span class="para_large" style="font-size: 4.375rem; color:#000000;">Our&amp;nbsp;</span><strong><span class="para_large" style="font-size: 4.375rem; font-family:OpenSansHebrew-Bold; color:#000000;">Chefs</span></strong>
+                                    </h2>
+                                    <div class="s_rating pb0 pt0 s_rating_inline" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                        <p><br/></p>
+                                        <div style="font-size: 31px;" class="s_rating_icons o_not_editable">
+                                            <span class="s_rating_active_icons" style="color:#f0ad4e">
+
+
+
+                                                <i class="fa fa-star"/> <i class="fa fa-star"/> <i class="fa fa-star"/>
+                                            </span>
+                                            <span class="s_rating_inactive_icons">
+
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="para_very-small" style="font-family:OpenSansHebrew-Regular;">
+                                        Culinary expertise, characterized by a vibrant variety of flavors and an innovative approach that makes each dish unique.&amp;nbsp;&amp;nbsp;<br/></p>
+
+                                </div>
+                                <div class="o_colored_level col-lg-6 chef_img"><img src="/web/image/5589-cf5cb7ac/Chef%20services.jpeg" alt="" class="img img-fluid mx-auto o_we_custom_image o_anim_fade_in o_animate o_anim_from_bottom o_visible" data-mimetype="image/webp" data-original-id="5588" data-original-src="/web/image/5588-50718ea1/Chef%20services.jpeg" data-mimetype-before-conversion="image/jpeg" data-resize-width="690" loading="eager" style=""/></div>
+                            </div>
+                        </div>
+
+                                      <div class="custom_svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 100" preserveaspectratio="none">
+        <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7  c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4  c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"/>
+        </svg>
+                        </div>
+                    </section>
+                    <section data-snippet="s_dynamic_snippet_products" class="s_dynamic_snippet_products s_dynamic o_colored_level s_product_product_mini_image bg-black custom_product-slider pb64 pt16 o_dynamic_empty" data-name="Products" data-product-category-id="1" data-number-of-records="8" data-filter-id="1" data-template-key="website_sale.dynamic_filter_template_product_product_mini_image" data-carousel-interval="5000" data-number-of-elements="4" data-number-of-elements-small-devices="1" style="background-image: none; position: relative;">
+
+                        <div class="o_not_editable container-fluid">
+                            <div class="css_non_editable_mode_hidden">
+                                <div class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                                    Your Dynamic Snippet will be displayed here... This message is displayed because you did not
+                                    provided both a filter and a template to use.<br/>
+                                </div>
+                            </div>
+                            <div class="dynamic_snippet_template"/>
+                        </div>
+                    </section>
+                    <section class="s_parallax parallax s_parallax_is_fixed o_colored_level pb0 bg-white o_full_screen_height" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax" style="background-image: none;">
+                        <span class="s_parallax_bg oe_img_bg o_bg_img_center full_screen_mobile" style="background-image: url(&quot;/web/image/1707-430e927c/YY66.webp&quot;);background-position: 7% 75%;background-color: transparent;background-size: 70%;" data-mimetype-before-conversion="image/png" data-resize-width="1920" data-original-src="/web/image/1703-374d228b/YY66.png" data-original-id="1703" data-mimetype="image/webp"/>
+                        <div class="o_we_bg_filter bg-white-75"/>
+
+                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE">
+                            <section class="s_text_image o_colored_level o_cc pb16 pt24" data-snippet="s_text_image" data-name="Text - Image" style="background-image: linear-gradient(90deg, rgba(255, 0, 0, 0) 72%, rgb(226, 51, 255) 72%, rgb(0, 154, 212) 72%);">
+                                <div class="container-fluid">
+                                    <div class="row o_grid_mode" data-row-count="12" style="gap: 5px 10px;">
+
+
+
+                                        <div class="o_colored_level o_grid_item o_grid_item_image float-img g-col-lg-6 o_grid_item_image_contain g-height-11 col-lg-6 srk" style="z-index: 2; grid-area: 2 / 7 / 13 / 32;"><img src="/web/image/4954-f35e1a09/Home%20page_experience-Photoroom.webp" alt="" class="img img-fluid mx-auto o_we_custom_image" style="padding: 10px;" data-mimetype="image/webp" data-original-id="4953" data-original-src="/web/image/4953-c6e7a645/Home%20page_experience-Photoroom.png" data-mimetype-before-conversion="image/png" data-resize-width="962" loading="lazy"/></div>
+
+
+                                    <div class="o_colored_level o_grid_item g-col-lg-6 g-height-8 col-lg-6" style="z-index: 1; letter-spacing: -5.9px; --grid-item-padding-x: 100px; grid-area: 3 / 1 / 11 / 7; font-size: 95px; color:#000000">
+                                            <h2 style="font-weight:800;" role="heading" level="1"><strong><span class="display-4-fs">
+                                                        <font class="text-black"><span style="font-family: 'OpenSansHebrew-Bold';letter-spacing: -6.2px; line-height:1;" class="display-1-fs">EXPERIENCE</span></font>
+                                                    </span></strong></h2>
+                                            <h2 role="heading" level="1">
+                                                <font class="text-black"><strong><span style="font-family:OpenSansHebrew-Bold;line-height:1;" class="display-1-fs">OF REAL</span></strong></font>
+                                            </h2>
+                                            <h2 role="heading" level="1">
+                                                <font class="text-black"><strong><span style="font-family:OpenSansHebrew-Bold;line-height:1;" class="display-1-fs">RECIPES</span></strong></font>
+                                            </h2>
+                                            <h2 role="heading" level="1"><strong><span class="display-4-fs">
+                                                        <font class="text-black"><span style="font-family:OpenSansHebrew-Bold;line-height:1;" class="display-1-fs">TASTE</span></font>
+                                                    </span></strong></h2>
+                                            <div class="s_hr text-start pt0 pb8" data-snippet="s_hr" data-name="Separator">
+                                                <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: var(--black);"/>
+                                            </div>
+
+                                        </div></div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                    <section class="s_parallax parallax s_parallax_is_fixed bg-black-50 o_colored_level pb0 pt0 o_full_screen_height" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax" style="background-image: none;">
+                        <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/1695-fb5ccf24/P000.webp&quot;); background-position: 50% 75%;" data-mimetype="image/webp" data-original-id="1694" data-original-src="/web/image/1694-b0e61190/P000.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1500" data-quality="84"><br/></span><span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;/web/image/1695-fb5ccf24/P000.webp&quot;); background-position: 50% 75%;" data-mimetype="image/webp" data-original-id="1694" data-original-src="/web/image/1694-b0e61190/P000.jpg" data-mimetype-before-conversion="image/jpeg" data-resize-width="1500" data-quality="84"><br/></span>
+
+                        <div class="oe_structure oe_empty" data-editor-message-default="true" data-editor-message="DRAG BUILDING BLOCKS HERE"/>
+                    </section>
+                </div>
+            </t>
+        </t>
+    </data>
+</odoo>
