@@ -1,5 +1,24 @@
 {
     "name": "Restaurant Website Theme",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     "version": "17.0.1.0.0",
     "category": "Website/Theme",
     "summary": "Restaurant website snippets and theme",
